@@ -1,0 +1,61 @@
+jtex: v1
+kind: typst
+title: Letterloom Typst Template
+description: A letter template
+template: template.typ
+files:
+  - letterloom/lib.typ
+  - letterloom/validate-inputs.typ
+  - letterloom/construct-outputs.typ
+  - template.typ
+authors:
+  - name: Stéfan van der Walt
+    github: stefanv
+    affiliations:
+      - Scientific Python
+      - BIDS, UC Berkeley
+version: 0.0.1
+license: MIT-0
+tags:
+  - letter
+# thumbnail:
+github: https://github.com/myst-templates/typst-letterbloom
+doc:
+  - id: title
+    required: true
+  - id: date
+options:
+- id: from-name
+  type: string
+  description: Sender's name
+  required: true
+- id: from-address
+  type: string
+  description: Sender's address
+- id: to-name
+  type: string
+  description: Recipient's name
+- id: to-address
+  type: string
+  description: Recipient's address
+- id: salutation
+  type: string
+  description: Opening greeting
+- id: closing
+  type: string
+  description: Closing phrase
+- id: signature-name
+  type: string
+  description: Name of the signatory (appears in signature block)
+- id: signature-title
+  type: string
+  description: Signatory's official title
+- id: signature-affiliation
+  type: string
+  description: Affiliation of the signatory (e.g., organization or title)
+- id: signature-image
+  type: file
+  description: Path to an image file of the signatory’s handwritten signature
+- id: signature-image-width
+  type: string
+  description: Width of the signature image
