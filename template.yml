@@ -23,7 +23,9 @@ github: https://github.com/myst-templates/typst-letterbloom
 doc:
   - id: title
     required: true
+    description: Letter title
   - id: date
+    description: Letter date; leave blank for today's date
 options:
 - id: from-name
   type: string

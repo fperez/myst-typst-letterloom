@@ -10,3 +10,9 @@ Once the template is published, you'll be able to use it independently of this r
 ## For theme developers
 
 The `letterloom` directory was populated from https://github.com/nandac/letterloom/tree/main/src
+
+## Theme options
+
+Browse [./template.yml](./template.yml) for a list of template
+options, and see [./example/letter.md](./example/letter.md) how to use
+them.
