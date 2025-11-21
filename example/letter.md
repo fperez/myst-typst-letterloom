@@ -3,9 +3,9 @@ title: Invitation to Keynote
 date: 2025-11-20
 options:
   from-name: "John Organizer"
-  from-address: "Somewhere, Summit, CA 92345"
+  from-address: "115 Somewhere Rd\nSummit, CA 92345"
   to-name: "Dr. Alice Academic"
-  to-address: "1000 Grizzly Peak Rd, Berkeley, CA 94704"
+  to-address: "1000 Grizzly Peak Rd\nBerkeley, CA 94704"
   salutation: "Dear Dr. Smith,"
   closing: "Best regards,"
 #  signature-name: Johnny
